@@ -34,7 +34,7 @@ nav{
     transition-duration: 0.3s
 }
 .logo a,img{
-    width: 120px;
+    width: 15vh;
     transition-duration: 0.3s;
 }
 nav ul li{
@@ -71,7 +71,7 @@ nav ul li a:hover::after{ /*hover is put first so it has higher specificity/prec
     /* margin-top: 10px; */
     background: #28252e;
     z-index: 2;
-    height: 12vh;
+    height: 12%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 .sticky .logo img{
@@ -378,6 +378,9 @@ nav .navIcon{
         /* left: 25px; */
         cursor: pointer;
     }
+    /* .sticky{
+        height: 20%;
+    } */
     .sub-title{
         font-size: 40px;
     }
